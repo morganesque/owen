@@ -1,0 +1,84 @@
+/*
+ie8 and lower separate desktop stylesheet approach from here:
+http://jakearchibald.github.io/sass-ie/
+*/
+body {
+  text-align: center;
+  font-size: 4em;
+  color: red; }
+
+a {
+  color: red; }
+  a:hover {
+    color: orange; }
+
+body {
+  background: blue;
+  color: red;
+  font-size: 3em; }
+
+b {
+  color: lightblue; }
+
+span {
+  color: white; }
+
+div {
+  border-color: green;
+  border-width: 20px;
+  border-style: solid;
+  margin: 100px;
+  padding: 10px;
+  background: yellow; }
+
+section {
+  margin: 100px;
+  background: purple; }
+
+div.inside {
+  background: pink;
+  border-color: orange;
+  border-width: 69px; }
+
+div.inside2 {
+  background: orange;
+  border-color: pink;
+  border-width: 69px; }
+
+div.inside3 {
+  background: pink;
+  border-color: orange;
+  border-width: 69px; }
+  div.inside3 b {
+    color: blue;
+    font-size: 200px; }
+    div.inside3 b:hover {
+      color: orange; }
+
+div.inside4 {
+  background: green;
+  border-color: brown;
+  border-width: 69px; }
+
+div.inside5 {
+  border-color: purple;
+  border-width: 20px;
+  background: brown; }
+
+div.inside6 {
+  border-color: light blue;
+  border-width: 30px;
+  border-color: orange;
+  background: green; }
+
+div.inside7 {
+  border-color: light blue;
+  border-width: 30px;
+  border-color: orange;
+  background: green; }
+
+div.today {
+  border-color: light blue;
+  border-width: 30px;
+  border-color: orange;
+  background: green; }

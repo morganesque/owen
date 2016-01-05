@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/form.css">
+        <script src="js/modernizr.js"></script>
+        <script src="js/all.min.js"></script>
+    </head>
+    <body>
+        
+    <form>
+    <label>Pleas enter your last name. Thank you!</label><br />
+    <input type="text" />
+    <button clas="pat">
+    go
+    </button><br><br>
+
+    <label>Pleas enter your name. Thank you!</label><br>
+    <input type="text" /> have you had a nice day
+    </form>
+    
+    <table>
+        <tr>
+            <td>You</td>
+            <td>feel</td>
+            <td>carm.</td>                
+        </tr>
+        <tr>
+            <td>It</td>
+            <td>is</td>
+            <td>nice to be me.</td>             
+        </tr>
+        <tr>
+            <td>You</td>
+            <td>feel</td>
+            <td>evrything thats good.</td>
+        </tr>
+     <table>
+     <button class="bob">
+     hellow press me
+     </button><br><br><br><br><br>
+
+     <table>
+        <tr>
+            <td><img src="http://greatergood.berkeley.edu/images/uploads/mindful-monday-logo-smaller.jpg"></td>
+            <td><img src="http://www.connecthousing.org.uk/Images/JobsandCareers/Morgan,K260509200x287.JPG"></td>
+            <td><img src="http://www.mindful.org/sites/default/files/Cover_Mindful.jpg" height="250px"></td>                
+        </tr>
+        <tr>
+        <td><img src="http://greatergood.berkeley.edu/images/uploads/mindful-monday-logo-smaller.jpg"></td>
+            <td><img src="http://www.connecthousing.org.uk/Images/JobsandCareers/Morgan,K260509200x287.JPG"></td>
+            <td><img src="http://www.mindful.org/sites/default/files/Cover_Mindful.jpg" height="250px"></td>
+            <d>             
+        </tr>
+     
+     <table>
+    
+
+    <script type="text/javascript">
+    $(document).on("ready",function(e)
+    {
+        $('button.pat').on("click",function(e)
+        {
+            e.preventDefault();
+            alert("Hellow. How do you do Mr/Mrs  "+$('input').val());
+        });
+
+        $('button.bob').on("click",function(e)
+        {
+            e.preventDefault();
+            alert("Your true love is on her/his way!!  "+$('input').val());
+        });
+    });
+
+    </script>
+    </body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/dad.css">
+        <script src="js/modernizr.js"></script>
+        <script src="js/all.min.js"></script>
+    </head>
+    <body>
+    <p>What is your  question ?</p>
+    
+    <textarea id="name" rows="2" cols="10"></textarea>
+
+    <button id="button">calculate</button>
+
+    <p><textarea id="answer" rows="5" cols="30"></textarea></p>
+
+    <script type="text/javascript">
+    function write(message) {$('#answer').text(message); }
+    /*function write(message) {document.writeln(message); }*/
+
+    $(document).on("ready",function(e)
+    {
+        $('#button').on("click",function(e)
+        {
+            e.preventDefault();
+            var answer = eval($('#name').val());
+            write (answer)
+        });
+    });
+
+    </script>
+    </body>
+</html>

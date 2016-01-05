@@ -1,0 +1,40 @@
+div.title {
+  text-align: center;
+  color: blue;
+  font-size: 50px;
+  margin-bottom: 20px; }
+
+u {
+  text-decoration: none;
+  border-bottom: 10px solid red; }
+
+body {
+  background-image: url(http://cdn.phys.org/newman/gfx/news/2008/1-scientistsin.jpg);
+  background-size: 30px 30px;
+  text-align: center; }
+
+div.fred {
+  width: 50%;
+  margin: 0 auto;
+  color: red;
+  font-size: 60px;
+  padding: 50px;
+  background-color: rgdba(0, 255, 0, 0.5); }
+
+.pink {
+  color: blue;
+  font-size: 50px; }
+
+table {
+  background: brown;
+  margin: 0 auto; }
+  table td {
+    border: 1px solid blue;
+    padding: 16px;
+    border-width: 40px;
+    color: red;
+    font-size: 60px; }
+
+div.wew {
+  font-size: 60px;
+  color: purple; }

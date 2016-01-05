@@ -1,0 +1,25 @@
+body {
+  color: blue;
+  font-size: 100px; }
+
+img {
+  float: right;
+  width: 1000px; }
+
+table {
+  background: yellow;
+  margin: 0 auto; }
+  table td {
+    border: 1px solid blue;
+    padding: 16px;
+    border-width: 40px;
+    color: green;
+    font-size: 60px; }
+
+div.wew {
+  font-size: 60px;
+  color: red; }
+
+ol, ul {
+  margin: 0 100px;
+  list-style-type: decimal; }

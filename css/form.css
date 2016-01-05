@@ -1,0 +1,13 @@
+form {
+  margin: 50px auto;
+  font-size: 20px; }
+
+table {
+  background: pink;
+  margin: 0 auto; }
+  table td {
+    border: 1px solid Cyan;
+    padding: 3px;
+    border-width: 20px;
+    color: MidnightBlue;
+    font-size: 60px; }

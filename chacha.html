@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/chacha.css">
+        <script src="js/modernizr.js"></script>
+        <script src="js/all.min.js"></script>
+    </head>
+    <body>
+    <h1>Blue Note</h1>
+    <h2>Blue Note</h2>
+    <h3>Blue Note</h3>
+    <h4>Blue Note</h4>
+    <h5>Blue Note</h5>
+    <p>Hear are some things about me</p>
+    <img src="http://p1.pichost.me/640/67/1917398.jpg" width="300">
+    <p class="something">I like break-dancing</p>
+    <p class="tom">and I like websighting!</p>
+    <p class="tom">I am a wild wolf that cat rip peopls jaws out! </p>
+    <a class="click" href="#">click</a>
+    <a class="pink"href="#">pink</a>
+    <a class="bananas"href="#">bananas</a>
+    <table>
+        <tr>
+            <td>I</td>               
+            <td>can</td>
+            <td>kill.</td>                
+        </tr>
+        <tr>
+            <td>I</td>
+            <td>can</td>
+            <td>bite.</td>            
+        </tr>
+        <tr>
+            <td>I</td>
+            <td>can</td>
+            <td>hear.</td>
+        </tr>
+    </table>
+    
+    <ul>
+    <li>tom</li>
+    <li>owen</li>
+    <li>carys</li>
+    <li>kirsty</li>
+    </ul>
+    
+    <button>Owen's button</button>
+
+    <br />
+    <form>
+        <lable for="name">Please enter your name</lable>
+        <input type="text" id="name" name="name"/>
+    </form>
+
+    <script>
+    $(document).on("ready",function(e)
+    {
+        $("p").hide();
+        $("img").hide();
+
+        $('button').on('click',function()
+        {
+            alert('fish fingers!!!');
+        });
+
+        $("a.click").on("click",function(e)
+        {
+            e.preventDefault();            
+            $("p").fadeIn(1000);
+            $("img").fadeIn(1000);
+            $("p").animate({'color':"red"},4500);
+        });
+
+        $("a.bananas").on("click",function(e)
+        {
+            e.preventDefault();
+            $("p.something").animate({'color':"green"},4500);
+        });
+
+        $("a.pink").on("click",function(e)
+        {
+            e.preventDefault();
+            $("p.tom").animate({'color':"blue"},4500);
+        });
+    });
+    </script>
+
+    </body>
+</html>

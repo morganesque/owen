@@ -1,0 +1,15 @@
+body * {
+  font-size: 1.5em; }
+
+body {
+  text-align: center;
+  padding-top: 2em;
+  background: radial-gradient(circle, transparent 20%, slategray 20%, slategray 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, slategray 20%, slategray 80%, transparent 80%, transparent) 50px 50px, -webkit-gradient(linear, left top, left bottom, color-stop(8px, #A8B1BB), color-stop(8px, transparent)) 0 -4px, linear-gradient(90deg, #A8B1BB 8px, transparent 8px) -4px 0;
+  background: -webkit-radial-gradient(circle, transparent 20%, slategray 20%, slategray 80%, transparent 80%, transparent), -webkit-radial-gradient(circle, transparent 20%, slategray 20%, slategray 80%, transparent 80%, transparent) 50px 50px, -webkit-linear-gradient(#A8B1BB 8px, transparent 8px) 0 -4px, -webkit-linear-gradient(0deg, #A8B1BB 8px, transparent 8px) -4px 0;
+  background: radial-gradient(circle, transparent 20%, slategray 20%, slategray 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, slategray 20%, slategray 80%, transparent 80%, transparent) 50px 50px, linear-gradient(#A8B1BB 8px, transparent 8px) 0 -4px, linear-gradient(90deg, #A8B1BB 8px, transparent 8px) -4px 0;
+  background-color: slategray;
+  background-size: 100px 100px, 100px 100px, 50px 50px, 50px 50px; }
+
+button {
+  background: green;
+  color: white; }
